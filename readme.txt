@@ -68,7 +68,7 @@ You can also mail us at support@wiqet.com
 
 == Changelog ==
 = 0.5 =
-Fixed wiqet_options bug when configuration not yet done
+Fixed wiqet_options bug when configuration not yet done and wiqet flash file location
 
 = 0.4 =
 Changed javascript to remove Bug out of IE 8. Removed Unique ID Tested on Firefox 3 and IE 7,8

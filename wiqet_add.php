@@ -138,8 +138,8 @@ Note: you will have always the option to change your Wiqet later on.
 var IVcustomerId = document.getElementById("customer_id").value;
 var IVuniqueId = document.getElementById("unique_id").value; //Cannot be empty!
 var IVWiqetCode = '';  
-var IVplayerUrl = '/wp-content/plugins/wiqet/editor_photo.swf';
-var IVDisplayUrl = '../wp-content/plugins/wiqet';
+var IVplayerUrl = '/wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/editor_photo.swf';
+var IVDisplayUrl = '../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin';
 var IVwidth = '500px';
 var IVheight = '420px';
 var IValign = 'middle';
