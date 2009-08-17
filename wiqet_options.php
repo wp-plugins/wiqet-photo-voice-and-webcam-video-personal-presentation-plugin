@@ -6,7 +6,7 @@
 
 <div class="wiqetExplain">
 <strong>Activate your Wiqet:</strong>
-Send us an e-mail with your domein name e.g. <span class="emphisize">"http://*.yourdomain.com"</span> and a request for an api key via
+Send us an e-mail with your <b>domain name</b> e.g. <span class="emphisize">"http://*.yourdomain.com"</span> and a request for an <b>api key</b> via
 our <a href="http://www.wiqet.com/?pageid=10&lang=english" target="_blank">contact form.</a> 
 You will receive the API-key from us within 24 hours.
 <br><br>

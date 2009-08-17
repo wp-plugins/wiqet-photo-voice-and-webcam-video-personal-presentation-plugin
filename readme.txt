@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 0.6
+Stable tag: 0.7
 
 Create and manage Wiqets from within wordpress.
 
@@ -16,6 +16,8 @@ Wiqet is the easy to use multimedia tool to personalize your website. Make photo
     * upload all type of videos
     * upload music files
     * make webcam videos
+
+Request your API key now via support@wiqet.com together with your domainname e.g. http://www.xxx.com.
 
 All Wiqets are viewed in the fancy Wiqet player. Because this is a Flash tool you can determine the size of the Player in your post.  
 
@@ -47,7 +49,7 @@ If you are installing this plugin for the first time:
 2. Please do login in admin section and click on the Plugin on left bar menu and activate Wiqet plugin
 3. After activation the Wiqet plugin  be listed with own menus on left bar.
 4. Click on Wiqet configuration and fill in the API key. 
-go to http://www.wiqet.com/?pageid=10&lang=english for your api key to ask for a api key.
+Request your API key by sending YOUR DOMAIN name e.g. http://www.yourdomain.com : go to http://www.wiqet.com/?pageid=10&lang=english
 
 5. Once this done, click on Add Wiqet from left sidebar on Wiqet options.
 6. Please enter the  wiqet name (used for our internal processing) followed by uploading images from Wiqet flash.
@@ -67,6 +69,9 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 0.6 =
+Added domainname to request api key.
+
 = 0.6 =
 Small error in edit wiqet page
 
