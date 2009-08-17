@@ -63,7 +63,7 @@ function trim(inputString)
 
 
 <div class = 'noresult' id="validate_error" style="display:none">Please enter Wiqet name.</div>
-<div class = 'noresult' id="config_error" style="display:none">Please fill Wiqet Configuration details <a href="?page=wiqet/wiqet.php" title="Click to fill Wiqet Configuration details">here</a> to proceed.</div>
+<div class = 'noresult' id="config_error" style="display:none">Please fill Wiqet Configuration details <a href="?page=wiqet-options" title="Click to fill Wiqet Configuration details">here</a> to proceed.</div>
 <div id="wiqet_details">
 <div class="wrap">
 <h2>Add webcam / video</h2>

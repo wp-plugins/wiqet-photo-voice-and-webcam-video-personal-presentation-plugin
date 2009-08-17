@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 0.4
+Stable tag: 0.5
 
 Create and manage Wiqets from within wordpress.
 
@@ -67,16 +67,18 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 0.5 =
+Fixed wiqet_options bug when configuration not yet done
 
 = 0.4 =
-* Changed javascript to remove Bug out of IE 8. Removed Unique ID Tested on Firefox 3 and IE 7,8
+Changed javascript to remove Bug out of IE 8. Removed Unique ID Tested on Firefox 3 and IE 7,8
 
 = 0.3 =
-* Added video Wiqet capability
+Added video Wiqet capability
 
 = 0.2 =
-* Added list of Wiqets to manage
+Added list of Wiqets to manage
 
 = 0.1 =
-* Initial release tested.
+Initial release tested.
 

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Wiqet Plugin
-Plugin URI: http://www.wiqet.com/social
+Plugin URI: http://www.wiqet.com/
 Description: Wiqet is the easy to use multimedia tool for personalisation of your Worpress blog. Upload photos (and edit them in/outzoom, rotate), Add voice comment (via your own microphone), Upload all type of videos, Upload music files, Make webcam videos and share your Wiqet.
 
 Version: 0.4
