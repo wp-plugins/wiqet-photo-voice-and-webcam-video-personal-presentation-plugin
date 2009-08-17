@@ -163,7 +163,7 @@ function wiqet_js_admin_header() {
 			  alert('Wiqet was saved successfully');
 			  //reply = confirm('Do you wish to add some more images to this Wiqet?','');
 			  //if(!reply)
-			  document.location.href= "?page=wiqet/wiqet.php&message=success";
+			  document.location.href= "?page=wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/wiqet.php&message=success";
 			  return true;
 			 }
 			
@@ -182,7 +182,7 @@ function wiqet_js_admin_header() {
 			  alert('Wiqet was updated successfully');
 			  //reply = confirm('Do you wish to add some more images to this Wiqet?','');
 			  //if(!reply)
-			  document.location.href= "?page=wiqet/wiqet.php&message=updated";
+			  document.location.href= "?page=wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/wiqet.php&message=updated";
 			}
 			
 			  
@@ -234,7 +234,7 @@ function media(){
 	//$audio_title = __('Add Wiqet');
 	$out = <<<EOF
 	
-	<a href="{$media_upload_iframe_src}&amp;TB_iframe=true" id="add_media" class="thickbox" title='Add Wiqet' onclick="return false;"><img src='../wp-content/plugins/wiqet/images/logo.jpg' width= '25' height='10' alt='Add Wiqet' /></a>
+	<a href="{$media_upload_iframe_src}&amp;TB_iframe=true" id="add_media" class="thickbox" title='Add Wiqet' onclick="return false;"><img src='../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/images/logo.jpg' width= '25' height='10' alt='Add Wiqet' /></a>
 EOF;
 	printf($out);;
 }
