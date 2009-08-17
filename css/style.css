@@ -1,0 +1,112 @@
+.wiqetExplain{
+
+	font-size:100%;
+	margin:5px;
+	width:60%;
+	padding:10px;
+}
+.emphisize{
+ color:#CD2323;
+ 
+}
+
+.wiqetExplainRight{
+	float:right;
+	padding-left:5px;
+	width:38%;
+	
+	
+}
+
+.wrapWiqet{
+width:815px;
+}
+
+.wiqetListItem
+{
+	font-size:120%;
+}
+
+.admin_grid{
+	border-top:solid 1px #aaaaaa;
+	border-left:solid 1px #aaaaaa;
+}
+.admin_grid tr td{
+	height:26px;
+	border-right:solid 1px #aaaaaa;
+	border-bottom:solid 1px #aaaaaa;
+	padding-left:9px;
+}
+.admin_grid tr td a img{
+	border:none;
+}
+.admin_grid tr.headings{
+	background-color:#e4e4e4;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.admin_grid tr.headings a{
+	color:#000000;
+	text-decoration:underline;
+}
+.admin_grid tr.headings a:hover{
+	color:#005c9c;
+}
+
+.admin_grid tr.row{
+	background:#fff;
+	font-size:12px;
+	color:#000;
+}
+.admin_grid tr.row a{
+	text-decoration:none;
+}
+.admin_grid tr.row#disable{
+	background:#fff;
+	font-size:12px;
+	color:#e67575;
+}
+
+.admin_grid tr.row#disable td{
+	color:#e67575;
+}
+.admin_grid tr.row#disable a{
+	color:#e67575;
+	text-decoration:none;
+	cursor:default;
+}
+.admin_grid tr.row#disable a:hover{
+	color:#e67575;
+}
+.admin_grid tr.altrow{
+	background:#fcf6e4;
+	font-size:12px;
+	color:#e67575;
+}
+.admin_grid tr.altrow a{
+	text-decoration:none;
+}
+.admin_grid tr.altrow#disable td{
+	color:#e67575;
+}
+
+.admin_grid tr.altrow#disable a{
+	color:#e67575;
+	text-decoration:none;
+	cursor:default;
+}
+.admin_grid tr.altrow#disable a:hover{
+	color:#e67575;
+}
+.noresult {
+	color:red;
+	font-weight:bold;
+	border:1px solid black;
+	padding:12px;
+}
+.paging {
+	padding:12px;
+	text-align:right;
+}
