@@ -143,8 +143,8 @@ function trim(inputString)
 var IVcustomerId = document.getElementById("customer_id").value;
 var IVuniqueId = document.getElementById("unique_id").value; //Cannot be empty!
 var IVWiqetCode = document.getElementById("wiqet_code").value;
-var IVplayerUrl = '/wp-content/plugins/wiqet/editor_<?php echo $wiqet_type?>.swf';
-var IVDisplayUrl = '../wp-content/plugins/wiqet';
+var IVplayerUrl = '/wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/editor_<?php echo $wiqet_type?>.swf';
+var IVDisplayUrl = '../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin';
 var IVwidth = '500px';
 var IVheight = '420px';
 var IValign = 'middle';
