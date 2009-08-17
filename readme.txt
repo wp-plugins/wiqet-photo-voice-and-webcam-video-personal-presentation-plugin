@@ -19,16 +19,16 @@ Wiqet is the easy to use multimedia tool to personalize your website. Make photo
 
 All Wiqets are viewed in the fancy Wiqet player. Because this is a Flash tool you can determine the size of the Player in your post.  
 
-To use this Wiqet tool you don’t need extra software. If you are a small or medium blog/website you can use the Wiqet, inclusief hosting facalities, for FREE. If you want the Wiqet Player to be in your look & feel you can contact us. 
+To use this Wiqet tool you don't need extra software. If you are a small or medium blog/website you can use the Wiqet, inclusief hosting facalities, for FREE. If you want the Wiqet Player to be in your look & feel you can contact us. 
 
-If you want to find out how Wiqet workds you can Install Wiqet or go to our website and make a demo Wiqet yourself.  
+If you want to find out how Wiqet works you can install Wiqet or go to our website (www.wiqet.com) and make a demo Wiqet yourself.  
 
 == Screenshots ==
 
 1. At the bottom of your admin area you will see a new option called Wiqet Options click on 
 configuration to add your unique client id.
 
-2. Your client id can be picked up from http://www.wiqet.com/apikey
+2. Your client id can be picked up from http://www.wiqet.com/?pageid=10&lang=english where you can fill in the request form. You will receive the key within 24 hours.
 
 3. Add a voice - photo Wiqet to make your own presentation with pictures and sound from your microphone.
 
@@ -51,18 +51,18 @@ go to http://www.wiqet.com/?pageid=10&lang=english for your api key to ask for a
 
 5. Once this done, click on Add Wiqet from left sidebar on Wiqet options.
 6. Please enter the  wiqet name (used for our internal processing) followed by uploading images from Wiqet flash.
-7. Once images will uploaded; you will be directed to wiqet list page. 
+7. Once images will uploaded, you will be directed to wiqet list page. 
 8. You can edit/delete present wiqet by clicking on edit/delete link.
 9. To insert this wiqet in a post , please move to posts page. 
 10.  Add/edit post page shows a Wiqet link next to media. Click on it and you will be shown list of all Wiqets added.
-11.  Click on “Add to post” link and that wiqet will be added to the editor. 
-12.  Every wiqet will have unique “id” based on which we have generated flash code for it. 
+11.  Click on "Add to post" link and that wiqet will be added to the editor. 
+12.  Every wiqet will have unique "id" based on which we have generated flash code for it. 
 13.  You can view this Wiqet on front section of word press blog in  the respective post.
 
 == Frequently Asked Questions ==
 No FAQ yet. Sorry.
 
-For the lates FAQ's please visit our knowledgebase questions area: http://kb.wiqet.com/kb
+For the lates FAQs please visit our knowledgebase questions area: http://kb.wiqet.com/kb
 You can also mail us at support@wiqet.com
 
 
