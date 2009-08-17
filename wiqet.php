@@ -190,7 +190,7 @@ function wiqet_js_admin_header() {
 		
 		//]]>
 		</script>
-		<link href="<?php echo get_option('siteurl'); ?>/wp-content/plugins/wiqet/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="<?php echo get_option('siteurl'); ?>/wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/css/style.css" rel="stylesheet" type="text/css" />
 		<?php
 }
 		
