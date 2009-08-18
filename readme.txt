@@ -16,7 +16,7 @@ Wiqet is the easy to use multimedia tool to personalize your website. Make photo
     * upload music files
     * make webcam videos
 
-Request your API key now via support@wiqet.com together with your domainname e.g. http://www.xxx.com.
+Request your API key now via http://www.wiqet.com/?pageid=10&lang=english together with your domainname e.g. http://www.xxx.com.
 
 All Wiqets are viewed in the fancy Wiqet player. Because this is a Flash tool you can determine the size of the Player in your post.  
 
