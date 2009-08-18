@@ -10,7 +10,6 @@ Create and manage Wiqets from within wordpress.
 == Description ==
 
 Wiqet is the easy to use multimedia tool to personalize your website. Make photo slideshows with voice or music, upload your video or make one directly with your webcam.
-
     * upload photos (and edit them in/outzoom, rotate)
     * add voice comment (via your own microphone)
     * upload all type of videos
