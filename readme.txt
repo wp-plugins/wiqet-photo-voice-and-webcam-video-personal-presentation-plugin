@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 0.7
+Stable tag: 0.8
 
 Create and manage Wiqets from within wordpress.
 
@@ -68,7 +68,10 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
-= 0.6 =
+= 0.8 =
+Video flash file update. Fixed double request.
+
+= 0.7 =
 Added domainname to request api key.
 
 = 0.6 =
