@@ -4,7 +4,7 @@ Plugin Name: Wiqet Plugin
 Plugin URI: http://www.wiqet.com/
 Description: Wiqet is the easy to use multimedia tool for personalisation of your Worpress blog. Upload photos (and edit them in/outzoom, rotate), Add voice comment (via your own microphone), Upload all type of videos, Upload music files, Make webcam videos and share your Wiqet.
 
-Version: 0.8
+Version: 0.9
 Author: <a href="http://www.wiqet.com" target="_blank">Wiqet Media.</a> and Smart Buzz Inc.
 
 License: LGPL v3 - http://www.gnu.org/licenses/lgpl.html
@@ -77,7 +77,7 @@ function wiqet_menu() {
  
   //add_menu_page(page_title, menu_title, access_level/capability, file, [function], [icon_url]); 
  
-  add_menu_page('Wiqet| Voice and Media Player', 'Wiqet Options', 8, __FILE__, '');
+  add_menu_page('Wiqet| Voice and Media Player', 'Wiqet Options', 8, __FILE__, '', '../../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/images/wiqetlogo16.png');
   add_submenu_page(__FILE__, 'Wiqet List - Voice and Media Player', 'List Wiqets', 8, __FILE__, 'wiqet_list');
   add_submenu_page(__FILE__, 'Wiqet Add - Voice and Media Player', 'Add voice and photo', 8, 'wiqet-add', 'wiqet_add');
   add_submenu_page(__FILE__, 'Wiqet Add - Webcam and video Player', 'Add webcam / video', 8, 'wiqet-add-video', 'wiqet_add_video');
@@ -234,7 +234,7 @@ function media(){
 	//$audio_title = __('Add Wiqet');
 	$out = <<<EOF
 	
-	<a href="{$media_upload_iframe_src}&amp;TB_iframe=true" id="add_media" class="thickbox" title='Add Wiqet' onclick="return false;"><img src='../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/images/logo.jpg' width= '25' height='10' alt='Add Wiqet' /></a>
+	<a href="{$media_upload_iframe_src}&amp;TB_iframe=true" id="add_media" class="thickbox" title='Add Wiqet' onclick="return false;"><img src='../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/images/logo20high.png' alt='Add Wiqet' /></a>
 EOF;
 	printf($out);;
 }

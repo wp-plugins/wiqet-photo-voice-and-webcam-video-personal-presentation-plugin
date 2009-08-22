@@ -20,6 +20,7 @@ function insertContent(code)
 </script>
 <div class="wrap">
 <h2>List of added Wiqets </h2>
+<a href="admin.php?page=wiqet-add" target="_parent">add photo</a> -- <a href="admin.php?page=wiqet-add-video" target="_parent" >add photo</a>
 <?php
 		global $wpdb;
 		$table_name = $wpdb->prefix . "wiqet";
