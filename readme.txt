@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 0.9
+Stable tag: 0.95
 
 Create and manage Wiqets from within wordpress.
 
@@ -16,7 +16,7 @@ Wiqet is the easy to use multimedia tool to personalize your website. Make photo
     * upload music files
     * make webcam videos
 
-Request your API key now via http://www.wiqet.com/?pageid=10&lang=english together with your domainname e.g. http://www.xxx.com.
+Request your API key now via http://www.wiqet.com/index.php?lang=english&pageid=165 together with your domainname e.g. http://www.xxx.com.
 
 All Wiqets are viewed in the fancy Wiqet player. Because this is a Flash tool you can determine the size of the Player in your post.  
 
@@ -29,7 +29,7 @@ If you want to find out how Wiqet works you can install Wiqet or go to our websi
 1. At the bottom of your admin area you will see a new option called Wiqet Options click on 
 configuration to add your unique client id.
 
-2. Your client id can be picked up from http://www.wiqet.com/?pageid=10&lang=english where you can fill in the request form. You will receive the key within 24 hours.
+2. Your API key can be picked up from http://www.wiqet.com/index.php?lang=english&pageid=165 where you can fill in the request form. You will receive the key within 24 hours.
 
 3. Add a voice - photo Wiqet to make your own presentation with pictures and sound from your microphone.
 
@@ -48,7 +48,7 @@ If you are installing this plugin for the first time:
 2. Please do login in admin section and click on the Plugin on left bar menu and activate Wiqet plugin
 3. After activation the Wiqet plugin  be listed with own menus on left bar.
 4. Click on Wiqet configuration and fill in the API key. 
-Request your API key by sending YOUR DOMAIN name e.g. http://www.yourdomain.com : go to http://www.wiqet.com/?pageid=10&lang=english
+Request your API key by sending YOUR DOMAIN name e.g. http://www.yourdomain.com : go to http://www.wiqet.com/index.php?lang=english&pageid=165
 
 5. Once this done, click on Add Wiqet from left sidebar on Wiqet options.
 6. Please enter the  wiqet name (used for our internal processing) followed by uploading images from Wiqet flash.
@@ -68,6 +68,9 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 0.95 =
+Updated with API Key website links
+
 = 0.9 =
 Updated logo's. Added direct links.
 

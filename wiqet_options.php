@@ -6,11 +6,9 @@
 
 <div class="wiqetExplain">
 <strong>Activate your Wiqet:</strong>
-Send us an e-mail with your <b>domain name</b> e.g. <span class="emphisize">"http://*.yourdomain.com"</span> and a request for an <b>api key</b> via
-our <a href="http://www.wiqet.com/?pageid=10&lang=english" target="_blank">contact form.</a> 
-You will receive the API-key from us within 24 hours.
-<br><br>
-We are currently in the process of automating this feature.
+Request an API key along with your <b>domain name</b> e.g. <span class="emphisize">"http://*.yourdomain.com"</span> via
+our <a href="http://www.wiqet.com/index.php?lang=english&pageid=165" target="_blank">API Key form.</a> 
+You will receive the API-key from us in your email box.
 </div>
 
 <table class="form-table">
