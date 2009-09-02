@@ -4,7 +4,7 @@ Plugin Name: Wiqet Plugin
 Plugin URI: http://www.wiqet.com/
 Description: Wiqet is the easy to use multimedia tool for personalisation of your Worpress blog. Upload photos (and edit them in/outzoom, rotate), Add voice comment (via your own microphone), Upload all type of videos, Upload music files, Make webcam videos and share your Wiqet. Get your API key from: http://www.wiqet.com/index.php?lang=english&pageid=165
 
-Version: 0.95
+Version: 0.96
 Author: <a href="http://www.wiqet.com" target="_blank">Wiqet Media.</a> and Smart Buzz Inc.
 
 License: LGPL v3 - http://www.gnu.org/licenses/lgpl.html
