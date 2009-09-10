@@ -31,12 +31,20 @@ function validate() {
 			document.getElementById('flashWiqet').style.visibility = "visible";
 			document.getElementById('wiqetExplain').style.visibility = "visible";
 			document.getElementById('wiqetExplainRight').style.visibility = "visible";
+			removeWho('extraWiqetInfo');
 			//showPlayer(customer_id,unique_id);
 			return true;
 		}	
 	}
 	
 }
+
+
+function removeWho(who) {
+     if(typeof who== 'string') who=document.getElementById(who);
+    if(who && who.parentNode)who.parentNode.removeChild(who);
+}
+
 
 
 function trim(inputString) 
@@ -127,11 +135,32 @@ directly "save" your Wiqet.
 Note: you will have always the option to change your Wiqet later on. 
 
 </div>
+<div class="extraWiqetInfo" id="extraWiqetInfo">
+Wiqets are free but you can order a custom player in your own look and feel and size.<br>
+We only want our small Q logo in the corner. <br>
+Our standard price for your own look and feel is a one time fee of $200,- dollars.<br>
+<br>
+
+<b>The restrictions are:</b>
+- Small Q logo in the corner<br>
+- Color changes<br>
+- Button changes<br>
+- Corner changes<br>
+- Size of the player (aspect ratio)<br>
+<br>
+
+Please contact us by filling in the <a href="http://www.wiqet.com/?pageid=10&lang=english" target="_blank">contact form</a> and requesting custom player (sales).<br>
+You can also request a quote for a totally custom player.
+
+</div>
 <div style="visibility:hidden" id="flashWiqet"></div>
 <!--<div id="linkWiqet"></div>-->
 <form method="post" target="_self" name="Wiqet">
       <div id="formWiqet"></div>
 </form>  
+
+
+
 </div>
 <script language="javascript">
 
@@ -155,4 +184,7 @@ if (error) document.write(error);
 
 </script>
 <div id="infoWiqet"></div>
+
+
+
 </body>
