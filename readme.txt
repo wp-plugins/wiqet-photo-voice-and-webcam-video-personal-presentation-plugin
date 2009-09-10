@@ -24,6 +24,25 @@ To use this Wiqet tool you don't need extra software. If you are a small or medi
 
 If you want to find out how Wiqet works you can install Wiqet or go to our website (www.wiqet.com) and make a demo Wiqet yourself.  
 
+
+== Look and feel ==
+Wiqets are free but you can order a custom player in your own look and feel and size.
+We only want our small Q logo in the corner. 
+Our standard price for your own look and feel is a one time fee of $200,- dollars.
+
+The restrictions are:
+- Small Q logo in the corner
+- Color changes
+- Button changes
+- Corner changes
+- Size of the player (aspect ratio)
+
+Please contact us by filling in the contact form and requesting custom player (sales).
+http://www.wiqet.com/?pageid=10&lang=english
+
+You can also request a quote for a totally custom player here.
+
+
 == Screenshots ==
 
 1. At the bottom of your admin area you will see a new option called Wiqet Options click on 
