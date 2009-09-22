@@ -86,6 +86,9 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 1.01 =
+Fixed Wiqet video / Webcam
+
 = 1.00 =
 New english flash files exept video. Smaller footprint. Working API key.
 

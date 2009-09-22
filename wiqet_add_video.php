@@ -160,19 +160,20 @@ function load_editor(){
 	/**
           Video editor
         */
-        var editor = new wiqet.video.Editor('flashWiqet', {
-           // 'wiqetCode':           'w3-gpqctycn'  //wiqet code for editing only
-        	, 'uniqueId':        document.getElementById("unique_id").value;
-        }
-        , {
-            //default flashplayer properties
-            'width':              '450px'
-          , 'height':             '375px'
-          , 'bgcolor':            '#FFFFFF'
-          , 'align':              'middle'
-          , 'allowScriptAccess':  'always'
-        }, 'onWiqetSaved');
-}
+	 var editor = new wiqet.video.Editor('flashWiqet', {
+	        'wiqetCode':            '<?php echo $wiqet_code?>'  //wiqet code for editing only
+	      	, 'uniqueId':       '<?php echo $unique_id?>'
+	      }
+	      , {
+	          //default flashplayer properties
+	          'width':              '450px'
+	        , 'height':             '375px'
+	        , 'bgcolor':            '#FFFFFF'
+	        , 'align':              'middle'
+	        , 'allowScriptAccess':  'always'
+	      }, 'onWiqetSaved');
+	       
+	}
 
 </script>
 </body>
