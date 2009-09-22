@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 0.97
+Stable tag: 1.00
 
 Create and manage Wiqets from within wordpress.
 
@@ -41,7 +41,6 @@ Please contact us by filling in the contact form and requesting custom player (s
 http://www.wiqet.com/?pageid=10&lang=english
 
 You can also request a quote for a totally custom player here.
-
 
 == Screenshots ==
 
@@ -87,11 +86,11 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
-= 0.97 =
-Own look and feel story
+= 1.00 =
+New english flash files exept video. Smaller footprint. Working API key.
 
-= 0.96 =
-Fix with path flash file
+= 0.97 =
+Updated for use with global Wiqet. Added new thumbnails mobile wiqet player. Using external flash.  
 
 = 0.95 =
 Updated with API Key website links

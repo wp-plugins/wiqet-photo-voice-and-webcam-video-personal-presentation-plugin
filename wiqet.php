@@ -2,14 +2,14 @@
 /*
 Plugin Name: Wiqet Plugin
 Plugin URI: http://www.wiqet.com/
-Description: Wiqet is the easy to use multimedia tool for personalisation of your Worpress blog. Upload photos (and edit them in/outzoom, rotate), Add voice comment (via your own microphone), Upload all type of videos, Upload music files, Make webcam videos and share your Wiqet. Get your API key from: http://www.wiqet.com/index.php?lang=english&pageid=165
+Description: Wiqet is the easy to use multimedia tool for personalisation of your Worpress blog. Upload photos (and edit them in/outzoom, rotate), Add voice comment (via your own microphone), Upload all type of videos, Upload music files, Make webcam videos and share your Wiqet.
 
-Version: 0.97
+Version: 1.00
 Author: <a href="http://www.wiqet.com" target="_blank">Wiqet Media.</a> and Smart Buzz Inc.
 
 License: LGPL v3 - http://www.gnu.org/licenses/lgpl.html
 
-Requires WordPress 2.7 or later. Not for use with WPMU.
+Requires WordPress 2.6 or later. Not for use with WPMU.
 
 Recent changes:
 see readme.txt
@@ -133,16 +133,16 @@ function wiqet_js_admin_header() {
 	?>
 	<script type="text/javascript">
 	//<![CDATA[
-		function onWiqetSaved() 
-		{
-			
-			// function body defined below
-			  
-			  code = document.getElementById("Wiqet[wiqetCode]").value;
-			  url =  document.getElementById("Wiqet[playerUrl]").value;
+		
+		function onWiqetSaved(wiqetCode, deleteCode, deletePinCode) {
+		      var wiqetCode = wiqetCode;
+		      //alert('wiqetCode:'+wiqetCode+', deleteCode:'+deleteCode+', deletePinCode:'+deletePinCode);
+			  code = wiqetCode;
+			  url =  'http://www.wiqet.com/index.php?wiqetCode='+wiqetCode;
 			  name = document.getElementById("wiqet_name").value;
 			  wiqet_code = '';;
 			  wiqet_id = '';
+			  
 			  if(document.getElementById("wiqet_code"))
 			  { wiqet_code = document.getElementById("wiqet_code").value;}
 			  if(document.getElementById("wiqet_id"))
@@ -184,8 +184,6 @@ function wiqet_js_admin_header() {
 			  //if(!reply)
 			  document.location.href= "?page=wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/wiqet.php&message=updated";
 			}
-			
-			  
 		}
 		
 		//]]>

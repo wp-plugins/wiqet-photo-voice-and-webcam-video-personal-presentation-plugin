@@ -21,7 +21,7 @@ You will receive the API-key from us in your email box.
  
 <tr valign="top">
 <th scope="row"></th>
-<td><input type="hidden" name="unique_id" value="<?php if(get_option('unique_id')){ echo get_option('unique_id'); } else{ echo uniqid(1); } ?>" /></td>
+<td><input type="hidden" name="unique_id" value="<?php if(get_option('unique_id')){ echo get_option('unique_id'); } else{ echo md5(uniqid(1)); } ?>" /></td>
 <td scope="row"> </td>
 </tr>
 

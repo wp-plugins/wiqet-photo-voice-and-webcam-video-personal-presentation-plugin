@@ -1,5 +1,5 @@
 
-<div class="wrap">
+
 <h2>List of added Wiqets </h2>
 <?php
 if(isset($_GET['message']) && $_GET['message'] == 'success')
@@ -53,18 +53,19 @@ else if( isset($_GET['message']) && $_GET['message'] == 'updated')
 				?>
 				<tr <?php echo $class;?>>
 					<td width="120px">
+					
 					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="110" height="94" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
 					<param name="wmode" value="transparent" />
-					<param name="src" value="http://www.wiqet.com/media/wiqetflashfiles/wordpress/3-0/player.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" />
+					<param name="src" value="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" />
 					<embed type="application/x-shockwave-flash" width="110" height="94" 
-				src="http://www.wiqet.com/media/wiqetflashfiles/wordpress/3-0/player.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" wmode="transparent">
+				src="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" wmode="transparent">
 					</embed></object>
 					</td>
 					<td><span class="wiqetListItem"><?php echo $result->wiqetname ?></span></td>
 					<td width="40px"><?php if($result->wiqet_type == 'photo'):?>
-					<img src="http://www.wiqet.com/media/wiqetflashfiles/wordpress/3-0/photoicon.gif" alt="photo Wiqet" title="voice and photo Wiqet"/>
+					<img src="http://backend.wiqet.com/wiqetembeds/externalimages/wordpressplugin/photoicon.gif" alt="photo Wiqet" title="voice and photo Wiqet"/>
 					<?php else: ?>
-					<img src="http://www.wiqet.com/media/wiqetflashfiles/wordpress/3-0/videoicon.gif" alt="video Wiqet" title="video/webcam Wiqet"/>
+					<img src="http://backend.wiqet.com/wiqetembeds/externalimages/wordpressplugin/videoicon.gif" alt="video Wiqet" title="video/webcam Wiqet"/>
 					<?php endif;?>
 					</td>
 					<td width="80px"><a href="?page=wiqet-edit&id=<?php echo $result->id ?>"> Edit </a> <br><br><a href="?page=wiqet-delete&id=<?php echo $result->id ?>" onclick="return confirm('Are you sure you want to delete this wiqet?')"> Delete </a> </td>
@@ -139,3 +140,22 @@ else if( isset($_GET['message']) && $_GET['message'] == 'updated')
 }
 
 ?>
+<div class="wrapWiqet">
+<div class="extraWiqetInfo">
+Wiqets are free but you can order a custom player in your own look and feel and size.
+We only want our small Q logo in the corner. 
+Our standard price for your own look and feel is a one time fee of $200,- dollars.
+<br/><br/>
+The restrictions are:<br/>
+- Small Q logo in the corner<br/>
+- Color changes<br/>
+- Button changes<br/>
+- Corner changes<br/>
+- Size of the player (aspect ratio)<br/>
+<br/><br/>
+Please <a href="http://www.wiqet.com/?pageid=10&lang=english">contact us</a> by filling in the contact form and requesting custom player (sales).
+<br/><br/>
+
+You can also request a quote for a totally custom player <a href="http://www.wiqet.com/?pageid=10&lang=english">here</a>.
+</div>
+</div>

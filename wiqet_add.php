@@ -1,4 +1,31 @@
-<script src="http://backend.wiqet.com/2.0/Wiqet.js" type="text/javascript"></script>
+<?php
+		global $wpdb;
+		$table_name = $wpdb->prefix . "options";
+		$no_rows = $wpdb->query( "SELECT * FROM $table_name where option_name = 'customer_id' || option_name = 'unique_id'" );
+		if($no_rows) 
+		{
+		  $qry_result = $wpdb->get_results( "SELECT * FROM $table_name where option_name = 'customer_id' || option_name = 'unique_id'" );
+		  foreach($qry_result as $result) 
+		  {
+			  if($result->option_name == 'customer_id')
+			  {
+				$customer_id = trim($result->option_value);
+
+			  }
+			  else
+			  {
+				$unique_id = trim($result->option_value);
+				//echo $unique_id;
+			  }
+		  }
+		}
+		else
+		{
+			$unique_id = '';
+			$customer_id = '';
+		}
+?>
+<script type="text/javascript" src="http://www.wiqet.com/wiqetapi/?api_key=<?php echo $customer_id?>"></script>
 <script type="text/javascript">
 function validate() {
 	var wiqet_name = trim(document.getElementById('wiqet_name').value);
@@ -32,20 +59,17 @@ function validate() {
 			document.getElementById('wiqetExplain').style.visibility = "visible";
 			document.getElementById('wiqetExplainRight').style.visibility = "visible";
 			removeWho('extraWiqetInfo');
-			//showPlayer(customer_id,unique_id);
+			load_editor();
+			
 			return true;
 		}	
 	}
 	
 }
-
-
 function removeWho(who) {
      if(typeof who== 'string') who=document.getElementById(who);
     if(who && who.parentNode)who.parentNode.removeChild(who);
 }
-
-
 
 function trim(inputString) 
 {
@@ -87,33 +111,7 @@ function trim(inputString)
 </table>
 <input type="hidden" id="result" >
 </div>
-<?php
-		global $wpdb;
-		$table_name = $wpdb->prefix . "options";
-		$no_rows = $wpdb->query( "SELECT * FROM $table_name where option_name = 'customer_id' || option_name = 'unique_id'" );
-		if($no_rows) 
-		{
-		  $qry_result = $wpdb->get_results( "SELECT * FROM $table_name where option_name = 'customer_id' || option_name = 'unique_id'" );
-		  foreach($qry_result as $result) 
-		  {
-			  if($result->option_name == 'customer_id')
-			  {
-				$customer_id = trim($result->option_value);
 
-			  }
-			  else
-			  {
-				$unique_id = trim($result->option_value);
-				//echo $unique_id;
-			  }
-		  }
-		}
-		else
-		{
-			$unique_id = '';
-			$customer_id = '';
-		}
-?>
 <input type="hidden" id="unique_id" value="<?php echo $unique_id?>">
 <input type="hidden" id="customer_id" value="<?php echo $customer_id?>">
 <div style="visibility:hidden" class="wiqetExplain" id="wiqetExplain">
@@ -157,34 +155,35 @@ You can also request a quote for a totally custom player.
 <!--<div id="linkWiqet"></div>-->
 <form method="post" target="_self" name="Wiqet">
       <div id="formWiqet"></div>
+
 </form>  
-
-
-
 </div>
+
+
 <script language="javascript">
 
-var IVcustomerId = document.getElementById("customer_id").value;
-var IVuniqueId = document.getElementById("unique_id").value; //Cannot be empty!
-var IVWiqetCode = '';  
-var IVplayerUrl = '../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin/editor_photo.swf';
-var IVDisplayUrl = '../wp-content/plugins/wiqet-photo-voice-and-webcam-video-personal-presentation-plugin';
-var IVwidth = '500px';
-var IVheight = '420px';
-var IValign = 'middle';
-var IVbgColor = '#ffffff';
-var IVdivForm = 'formWiqet';
-var IVdivPlayer = 'flashWiqet';
-var IVdivLink = 'linkWiqet';
-var IVFormName = 'Wiqet';
-var IVFormnameType = 'hidden'; //or text
-var error = play_wiqet(IVDisplayUrl,IVplayerUrl,'editor',IVWiqetCode,IVcustomerId,IVuniqueId,IVwidth,IVheight,IValign,IVbgColor,IVdivLink,IVdivForm,IVdivPlayer,IVFormName,IVFormnameType, '', '');
-if (error) document.write(error);
 
+function load_editor(){
+	/**
+	  Photo editor
+	*/
+	var photo = new wiqet.photo.Editor('flashWiqet', {
+	      'uniqueId':       document.getElementById("unique_id").value       //id to identify a user, defined by you
+	    , 'deleteCode':     ''        //delete code to authorize deletion of the wiqet
+	    , 'deletePinCode':  ''        //pincode to authorize deletion of the wiqet
+	    , 'modus':          'editor'  
+	  } 
+	  , {
+	      //default flashplayer properties
+	      'width':              '450px'
+	    , 'height':             '375px'
+	    , 'bgcolor':            '#FFFFFF'
+	    , 'align':              'middle'
+	    , 'allowScriptAccess':  'always'
+	}, 'onWiqetSaved');
+}
+	
 
 </script>
 <div id="infoWiqet"></div>
-
-
-
 </body>
