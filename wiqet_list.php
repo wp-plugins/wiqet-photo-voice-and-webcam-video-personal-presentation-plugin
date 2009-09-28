@@ -56,9 +56,9 @@ else if( isset($_GET['message']) && $_GET['message'] == 'updated')
 					
 					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="110" height="94" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
 					<param name="wmode" value="transparent" />
-					<param name="src" value="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" />
+					<param name="src" value="http://backend.wiqet.com/wiqetembeds/default/player_thumb.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" />
 					<embed type="application/x-shockwave-flash" width="110" height="94" 
-				src="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" wmode="transparent">
+				src="http://backend.wiqet.com/wiqetembeds/default/player_thumb.swf?modus=player&introvoiceCode=<?php echo $result->wiqetcode; ?>/" wmode="transparent">
 					</embed></object>
 					</td>
 					<td><span class="wiqetListItem"><?php echo $result->wiqetname ?></span></td>

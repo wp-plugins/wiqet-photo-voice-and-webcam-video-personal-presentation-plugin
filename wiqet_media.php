@@ -45,9 +45,9 @@ function insertContent(code)
 				echo "<tr>";
 				echo  '<td><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="90" height="84" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
 					<param name="wmode" value="transparent" />
-					<param name="src" value="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode='.$result_media->wiqetcode.'" />
+					<param name="src" value="http://backend.wiqet.com/wiqetembeds/default/player_thumb.swf?modus=player&introvoiceCode='.$result_media->wiqetcode.'" />
 					<embed type="application/x-shockwave-flash" width="90" height="84" 
-				src="http://backend.wiqet.com/wiqetembeds/default/player_mobile.swf?modus=player&introvoiceCode='.$result_media->wiqetcode.'" wmode="transparent">
+				src="http://backend.wiqet.com/wiqetembeds/default/player_thumb.swf?modus=player&introvoiceCode='.$result_media->wiqetcode.'" wmode="transparent">
 					</embed></object></td>';
 				echo "<td>".$result_media->wiqetname ."</td>";
 				
