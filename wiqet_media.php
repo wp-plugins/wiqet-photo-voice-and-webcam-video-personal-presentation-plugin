@@ -11,9 +11,9 @@ function insertContent(code)
 {
 	<?php if (@fclose(@fopen("http://backend.wiqet.com/wiqetembeds/".get_option('customer_id')."/player.swf", "r"))):?>
 	
-		content = '<object width="450" height="380"><param name="movie" value="http://backend.wiqet.com/wiqetembeds/<?php echo get_option('customer_id');?>/player.swf?modus=player&introvoiceCode='+code+'/"></param><param name="wmode" value="transparent"></param><embed src="http://backend.wiqet.com/wiqetembeds/<?php echo get_option('customer_id');?>/player.swf?modus=player&introvoiceCode='+code+'" type="application/x-shockwave-flash" wmode="transparent" width="450" height="380"></embed></object>';
+		content = '<object width="450" height="380"><param name="movie" value="http://backend.wiqet.com/wiqetembeds/<?php echo get_option('customer_id');?>/player.swf?modus=player&introvoiceCode='+code+'/"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://backend.wiqet.com/wiqetembeds/<?php echo get_option('customer_id');?>/player.swf?modus=player&introvoiceCode='+code+'" type="application/x-shockwave-flash" wmode="transparent" allowFullScreen="true" width="450" height="380"></embed></object>';
 	<?php else :?>
-		content = '<object width="450" height="380"><param name="movie" value="http://backend.wiqet.com/wiqetembeds/default/player.swf?modus=player&introvoiceCode='+code+'/"></param><param name="wmode" value="transparent"></param><embed src="http://backend.wiqet.com/wiqetembeds/default/player.swf?modus=player&introvoiceCode='+code+'" type="application/x-shockwave-flash" wmode="transparent" width="450" height="380"></embed></object>';
+		content = '<object width="450" height="380"><param name="movie" value="http://backend.wiqet.com/wiqetembeds/default/player.swf?modus=player&introvoiceCode='+code+'/"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://backend.wiqet.com/wiqetembeds/default/player.swf?modus=player&introvoiceCode='+code+'" type="application/x-shockwave-flash" wmode="transparent" allowFullScreen="true" width="450" height="380"></embed></object>';
 	<?php endif;?>
 	
 	var win = window.dialogArguments || opener || parent || top;
