@@ -3,7 +3,7 @@ Contributors: Michiel Boon, Vishal Hira
 Tags: Video, Voice, Photo, Webcam, Wiqet, www.wiqet.com
 Requires at least: 2.6
 Tested up to: 2.8.4
-Stable tag: 1.03
+Stable tag: 1.04
 
 Create and manage Wiqets from within wordpress.
 
@@ -16,7 +16,7 @@ Wiqet is the easy to use multimedia tool to personalize your website. Make photo
     * upload music files
     * make webcam videos
 
-Request your API key now via http://www.wiqet.com/index.php?lang=english&pageid=165 together with your domainname e.g. http://www.xxx.com.
+Request your API key now via http://www.wiqet.com/index.php?lang=english&pageid=165 together with your domainname e.g. http://xxx.xxx (without the wwww).
 
 All Wiqets are viewed in the fancy Wiqet player. Because this is a Flash tool you can determine the size of the Player in your post.  
 
@@ -86,6 +86,9 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 1.04 =
+Replaced sentences with correct versions
+
 = 1.03 =
 Added a full screen option to Wiqet
 
