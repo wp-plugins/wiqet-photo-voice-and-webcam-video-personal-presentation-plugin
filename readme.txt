@@ -86,6 +86,9 @@ You can also mail us at support@wiqet.com
 
 
 == Changelog ==
+= 1.05 =
+Changed installation instructions. 
+
 = 1.04 =
 Replaced sentences with correct versions
 
