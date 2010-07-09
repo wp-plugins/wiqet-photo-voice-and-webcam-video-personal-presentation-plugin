@@ -66,7 +66,7 @@ If you are installing this plugin for the first time:
 2. Please do login in admin section and click on the Plugin on left bar menu and activate Wiqet plugin
 3. After activation the Wiqet plugin  be listed with own menus on left bar.
 4. Click on Wiqet configuration and fill in the API key. 
-Request your API key by sending YOUR DOMAIN name e.g. http://www.yourdomain.com : go to http://www.wiqet.com/index.php?lang=english&pageid=165
+Request your API key by sending YOUR DOMAIN name e.g. http://yourdomain.com (WITHOUT the www) : go to http://www.wiqet.com/index.php?lang=english&pageid=165
 
 5. Once this done, click on Add Wiqet from left sidebar on Wiqet options.
 6. Please enter the  wiqet name (used for our internal processing) followed by uploading images from Wiqet flash.
