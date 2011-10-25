@@ -8,6 +8,7 @@ Stable tag: 1.04
 Create and manage Wiqets from within wordpress.
 
 == Description ==
+We discontinued support for this plugin. You can however buy support for the Wiqet application. 
 
 Wiqet is the easy to use multimedia tool to personalize your website. Make photo slideshows with voice or music, upload your video or make one directly with your webcam.
     * upload photos (and edit them in/outzoom, rotate)
